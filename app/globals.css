@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Fasthand&family=Poppins&family=Quicksand:wght@300;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background-color: #525B66;
+font-family: 'Quicksand', sans-serif;
+ 
+}
+
+
+
+/* Hide the scrollbar track */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Hide the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+scrollbar-width: none;
+    background: transparent;
+}
+/* Hide the scrollbar track and thumb */
